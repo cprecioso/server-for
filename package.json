@@ -1,0 +1,42 @@
+{
+  "name": "server-for",
+  "description": "Stand up a static server for running a command",
+  "repository": {
+    "type": "git",
+    "url": "git+https://cprecioso@github.com/cprecioso/server-for.git"
+  },
+  "homepage": "https://github.com/cprecioso/server-for#readme",
+  "bugs": {
+    "url": "https://github.com/cprecioso/server-for/issues"
+  },
+  "author": "Carlos Precioso",
+  "license": "ISC",
+  "engines": {
+    "node": ">=16"
+  },
+  "bin": "src/bin.mjs",
+  "files": [
+    "src/**"
+  ],
+  "keywords": [
+    "server",
+    "testing",
+    "concurrently",
+    "wait-for",
+    "static",
+    "test"
+  ],
+  "dependencies": {
+    "clipanion": "^3.2.0-rc.10",
+    "execa": "^6.1.0",
+    "serve-handler": "^6.1.3"
+  },
+  "devDependencies": {
+    "@types/node": "^16",
+    "prettier": "^2.6.2",
+    "prettier-plugin-pkg": "^0.13.0",
+    "prettier-plugin-sh": "^0.10.0",
+    "typescript": "^4.6.3"
+  },
+  "packageManager": "yarn@3.2.0"
+}
