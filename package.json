@@ -1,5 +1,6 @@
 {
   "name": "server-for",
+  "version": "1.0.0",
   "description": "Stand up a static server for running a command",
   "repository": {
     "type": "git",
